@@ -1,34 +1,23 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+PERMISSION: APP
+ABI: arm64-v8a
+MODEL: RMX3710
+SDK: 35
+RELEASE: 15
+TARGET_SDK: 30
+---StackTrace---
+java.io.IOException: Archive is not a ZIP archive
+	at l.᩹᩷ۙ.۬(A5XF:662)
+	at l.᩹᩷ۙ.<init>(A5XF:316)
+	at l.᩹᩷ۙ.<init>(A5XF:143)
+	at l.᩹᩷ۙ.<init>(A5XF:119)
+	at l.᩻ۗۛ.۬(O1WA:129)
+	at l.ᩳ᩷ۛ.۬(01VN:62)
+	at l.᩺ۤۜ.۬(44GK:98)
+	at l.۟ۢۛ.ۙ(K50D:154)
+	at l.᩻۬ۙ.۬(TAJI:165)
+	at l.ۖ۬ۙ.run(NAJ8:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
